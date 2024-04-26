@@ -1,4 +1,7 @@
-name = "my-app"
+#:schema node_modules/wrangler/config-schema.json
+
+name = "worker-classy-node"
+main = "src/index.js"
 compatibility_date = "2023-12-01"
 
 # [vars]
