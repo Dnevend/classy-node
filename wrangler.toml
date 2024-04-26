@@ -4,6 +4,10 @@ name = "worker-classy-node"
 main = "src/index.js"
 compatibility_date = "2023-12-01"
 
+routes = [
+	{ pattern = "api.classygit.me", custom_domain = true }
+]
+
 # [vars]
 # MY_VAR = "my-variable"
 
